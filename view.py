@@ -68,8 +68,8 @@ def new_user():
         db.session.add(new_user)
         db.session.commit()
 
-        return "User added successfully!"
-    return render_template('adduser.html')
+        # return "User added successfully!"
+    return render_template('adduser.html') 
 
 
 
